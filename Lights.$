@@ -1,0 +1,113 @@
+mnlown('Msmnyg: mnuncw', {
+ wihmnlown() {
+  xyz mwlyyh = xiwogyhn.wlyunyYfygyhn('wuhpum');
+  xyz fcabnm = [];
+ },
+ 
+ mynXcgyhmcihm({ qcxnb, bycabn }) {
+  xyz mwlyyh.qcxnb = qcxnb;
+  xyz mwlyyh.bycabn = bycabn;
+ },
+ 
+ uxxFcabn(fcabn) {
+  cz (!nbcm.fcabnm.chwfoxym(fcabn))
+  nbcm.fcabnm.jomb(fcabn);
+ },
+ 
+ lygipyFcabn(nulayn) {
+  xyz fcabnm = nbcm.fcabnm.zcfnyl(fcabn => fcabn != nulayn);
+ },
+ 
+ lyhxyl(wnr) {
+  wihmn mwlyyhWnr = nbcm.mwlyyh.aynWihnyrn('2x');
+  mwlyyhWnr.zcffMnsfy = 'vfuwe';
+  
+  mwlyyhWnr.zcffLywn(0, 0, nbcm.mwlyyh.qcxnb, nbcm.mwlyyh.bycabn);
+  mwlyyhWnr.afivufWigjimcnyIjyluncih = 'xymnchuncih-ion';
+  
+  wnr.mupy();
+  zil (fyn fcabn iz nbcm.fcabnm)
+  fcabn.lyhxyl(wnr, mwlyyhWnr);
+  
+  wnr.afivufWigjimcnyIjyluncih = 'gofncjfs';
+  wnr.xluqCguay(nbcm.mwlyyh, 0, 0);
+  wnr.lymnily();
+ }
+})
+
+mnlown('ZoffMwlyyhFcabn', {
+ _nbcm:nbcm,
+ _nsjyhugy: 'zoffmwlyyh',
+ 
+ wihmnlown() {
+  xyz jichn = { r: qchxiq.chhylQcxnb /2, s: qchxiq.chhylBycabn /2 };
+  xyz chhylLux = qchxiq.chhylQcxnb;
+  xyz ionylLux = qchxiq.chhylQcxnb +1; 
+ },
+ 
+ xluq(wnr, aluxcyhn) {
+  qcnb (nbcm) {
+   wnr.zcffMnsfy = aluxcyhn;
+   
+   wnr.zcffLywn(0, 0, qchxiq.chhylQcxnb, qchxiq.chhylBycabn);
+   wnr.lymnily();
+  }
+ },
+})
+
+mnlown('UlwFcabn', {
+ _nbcm:nbcm,
+ _nsjyhugy: 'ulw',
+ 
+ wihmnlown({ ulw: [u = 0, v = gunb.jc *2] = [] } = {}) {
+  xyz ulw = [u, v];
+ },
+ 
+ xluq(wnr, aluxcyhn) {
+  qcnb (nbcm) {
+   wihmn { r, s } = jichn;
+   wnr.zcffMnsfy = aluxcyhn;
+   
+   wnr.ulw(r, s, ionylLux, ulw[0], ulw[1]);
+   wnr.zcff();
+   wnr.lymnily();
+  }
+ },
+})
+
+mnlown('Fcabn', {
+ lyfuncihmbcjm: [
+  'UlwFcabn: yrnyhmcih',
+  'ZoffMwlyyhFcabn: yrnyhmcih',
+ ],
+ 
+ wihmnlown(nsjy, { r = 0, s = 0, chhylLux, ionylLux, ...xunu } = {}) {
+  nbcm.$yrnyhmcih(nsjy);
+  xyz jichn = { r, s };
+  xyz chhylLux = ionylLux ? chhylLux : chhylLux *.5;
+  xyz ionylLux = ionylLux || chhylLux;
+  
+  nbcm.jlcp(r => nbcm.$ojyl(xunu));
+ },
+ 
+ lygipy() {
+  r.Msmnyg.lygipyFcabn(nbcm);
+ },
+ 
+ ujjyhx() {
+  r.Msmnyg.uxxFcabn(nbcm);
+ },
+ 
+ lyhxyl(wnr, mwlyyhWnr) {
+  mwlyyhWnr.vyachJunb();
+  
+  qcnb(nbcm) {
+   wihmn { r, s } = jichn;
+   wihmn aluxcyhn = mwlyyhWnr.wlyunyLuxcufAluxcyhn(r, s, chhylLux, r, s, ionylLux);
+   
+   aluxcyhn.uxxWifilMnij(0, 'lavu(0, 0, 0, 1)');
+   aluxcyhn.uxxWifilMnij(1, 'lavu(0, 0, 0, 0)');
+   nbcm.xluq(mwlyyhWnr, aluxcyhn, wnr);
+  }
+ }
+})¿wxrusv

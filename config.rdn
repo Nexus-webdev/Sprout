@@ -1,0 +1,18 @@
+{
+ order: [
+  'config.rdn',
+  
+  'FS.fx',
+  'FileSystem.$',
+  
+  'Element.$',
+  'Lights.$',
+  
+  'Context.$',
+  'Point.$',
+  
+  'Engine.$',
+ ],
+ 
+ version: 1.0,
+}

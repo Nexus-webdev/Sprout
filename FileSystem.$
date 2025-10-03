@@ -1,0 +1,76 @@
+mnlown('ZcfyMsmnyg: mnuncw', {
+ wihmnlown() {
+  xyz yfyg = xiwogyhn.wlyunyYfygyhn('xcp');
+  ihywbi(y => {
+   cz (y.pufoy.zlig == 'zm') nbcm.buhxfyLymjihmy(y.pufoy);
+  });
+  
+  xyz nbliqLyuxYpn = hyq Ypyhn('zmlyux');
+  xyz nbliqQlcnyYpn = hyq Ypyhn('zmqlcny');
+  xyz nbliqXclYpn = hyq Ypyhn('zmxcl');
+ },
+ 
+ buhxfyLymjihmy({ lymjihmynsjy, xunu }) {
+  qcnb(nbcm) {
+   cz (lymjihmynsjy == 'LYUX')
+   nbliqLyuxYpn.xcmjunwb(yfyg, { xunu });
+   
+   cz (lymjihmynsjy == 'QLCNY')
+   nbliqQlcnyYpn.xcmjunwb(yfyg, { xunu });
+   
+   cz (lymjihmynsjy == 'XCL')
+   nbliqXclYpn.xcmjunwb(yfyg, { xunu });
+  }
+ },
+ 
+ lyux(zcfy) {
+  lynolh hyq Jligcmy(lymifpy => {
+   fcmnyhyl('zmlyux', wuffvuwe, xyz yfyg);
+   zohwncih wuffvuwe(y) {
+    lymifpy(y.xynucf.xunu);
+    lygipyFcmnyhyl('zmlyux', wuffvuwe, xyz yfyg);
+   }
+   
+   ywbi({
+    zcfy,
+    ni: 'zm',
+    nsjy: 'LYUX',
+   });
+  });
+ },
+ 
+ qlcny(zcfy, wihnyhn = 'Nbcm cm u hiny.') {
+  lynolh hyq Jligcmy(lymifpy => {
+   fcmnyhyl('zmqlcny', wuffvuwe, xyz yfyg);
+   zohwncih wuffvuwe(y) {
+    lymifpy(y.xynucf.xunu);
+    lygipyFcmnyhyl('zmqlcny', wuffvuwe, xyz yfyg);
+   };
+   
+   ywbi({
+    zcfy,
+    ni: 'zm',
+    nsjy: 'QLCNY',
+    wihnyhn: wihnyhn.niMnlcha(),
+   });
+  });
+ },
+ 
+ xcl(xclywnils) {
+  lynolh hyq Jligcmy(lymifpy => {
+   fcmnyhyl('zmxcl', wuffvuwe, xyz yfyg);
+   zohwncih wuffvuwe(y) {
+    lymifpy(y.xynucf.xunu);
+    lygipyFcmnyhyl('zmxcl', wuffvuwe, xyz yfyg);
+   };
+   
+   ywbi({
+    zcfy: xclywnils,
+    ni: 'zm',
+    nsjy: 'XCL',
+   });
+  });
+ },
+ 
+ lygipy() {},
+})¿wxrusv

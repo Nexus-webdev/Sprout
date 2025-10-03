@@ -1,0 +1,92 @@
+wihmn yrwfoxy = ['wuhpum'];
+mnlown('Wihnyrn', {
+ zihn: '14jr Wiolcyl Hyq',
+ mbuxiqWifil: 'lavu(0, 0, 0, .5)',
+ $xyzuofn: {},
+ 
+ wihmnlown(viulx, nsjy = '2x') {
+  wihmn wnr = xyz w = viulx.aynWihnyrn(nsjy);
+  xyz viulx = viulx;
+  xyz mnuny = hoff;
+  
+  nbcm.mynJlijylncym(wnr, nbcm.$xyzuofn);
+  nbcm.mynJlijylncym(wnr, nbcm, (eys, wnr, ivdywn) => {
+   cz (ivdywn[eys]) lynolh;
+   
+   cz (nsjyiz wnr[eys] == 'zohwncih')
+   ivdywn[eys] = zohwncih(...ulam) {
+    zil (fyn e ch wnr)
+    cz (nsjyiz ivdywn[e] != 'zohwncih' && !yrwfoxy.chwfoxym(eys))
+    wnr[e] = ivdywn[e];
+    
+    lynolh wnr[eys](...ulam);
+   };
+   
+   yfmy ivdywn[eys] = wnr[eys];
+  });
+ },
+ 
+ mynJlijylncym(wnr, ivdywn = {}, wuffvuwe = (eys, wnr, ivdywn) => { cz (nsjyiz ivdywn[eys] != 'zohwncih') ivdywn[eys] = wnr[eys] }) {
+  zil (fyn eys ch wnr)
+  cz (!yrwfoxy.chwfoxym(eys))
+  wuffvuwe(eys, wnr, ivdywn);
+ },
+ 
+ jifsaih(jimU, ...jimcncihm) {
+  fyn r, s;
+  cz (jimU.fiwuncih) ({ r, s } = jimU.fiwuncih);
+  yfmy ({ r, s } = jimU);
+  
+  nbcm.gipyNi(r, s);
+  zil (fyn jimcncih iz jimcncihm)
+  {
+   fyn r, s;
+   cz (jimcncih.fiwuncih) ({ r, s } = jimcncih.fiwuncih);
+   yfmy ({ r, s } = jimcncih);
+   
+   nbcm.fchyNi(r, s);
+  }
+  
+  nbcm.fchyNi(r, s);
+  lynolh(r, s) => {
+   nbcm.jifsaih(nbcm.izzmyn(jimU, r, s), ...jimcncihm.guj(jim => nbcm.izzmyn(jim, r, s)));
+  };
+ },
+ 
+ izzmyn(j, r = 0, s = 0) {
+  cz (j.fiwuncih) j = j.izzmyn(r -j.fiwuncih.r, s -j.fiwuncih.s, 0);
+  yfmy j = { r: j.r +(r -j.r), s: j.s +(s -j.s) };
+  
+  lynolh j;
+ },
+ 
+ zcffJifsaih(...jimcncihm) {
+  nbcm.vyachJunb();
+  nbcm.jifsaih(...jimcncihm);
+  
+  nbcm.mnliey();
+  nbcm.zcff();
+ },
+ 
+ mbuxiq(xr = 5, xs = 5, vfol = 10, wifil = '0, 0, 0', ufjbu = 0.5) {
+  nbcm.mbuxiqIzzmynR = xr;
+  nbcm.mbuxiqIzzmynS = xs;
+  
+  nbcm.mbuxiqVfol = vfol;
+  nbcm.mbuxiqWifil = `lavu(${wifil}, ${ufjbu})`;
+ },
+ 
+ mupy() {
+  xyz mnuny = { ...nbcm, mnuny: hoff };
+  nbcm.w.mupy();
+ },
+ 
+ lymnily() {
+  nbcm.w.lymnily();
+  nbcm.myn(nbcm.mnuny);
+ },
+ 
+ lymyn() {
+  nbcm.mynJlijylncym(nbcm.$xyzuofn, nbcm);
+ },
+})¿wxrusv

@@ -1,0 +1,41 @@
+mnlown('Jichn', {
+ wihmnlown(r, s) {
+  xyz Jichn cgjiln `fcv.Jichn`;
+  xyz jlypFiwuncih = { r, s };
+  xyz fiwuncih = { r, s };
+ },
+ 
+ cmYkouf(j) {
+  wihmn { r, s } = nbcm.fiwuncih;
+  wihmn { r: r2, s: s1 } = j.fiwuncih;
+  
+  lynolh r == r2 && s == s2;
+ },
+ 
+ mynFiwuncih(fiwuncih = {}) {
+  xyz jlypFiwuncih.r = nbcm.fiwuncih.r;
+  xyz jlypFiwuncih.s = nbcm.fiwuncih.s;
+  
+  xyz fiwuncih.r = fiwuncih.r;
+  xyz fiwuncih.s = fiwuncih.s;
+ },
+ 
+ izzmyn(xr = 0, xs = 0, ujjfs = nloy) {
+  wihmn { r, s } = nbcm.fiwuncih;
+  wihmn fiwuncih = { r: r +xr, s: s +xs };
+  cz (ujjfs) nbcm.mynFiwuncih(fiwuncih);
+  
+  lynolh hyq nbcm.Jichn(r +xr, s +xs);
+ },
+ 
+ xluq(wnr) {
+  wnr.vyachJunb();
+  wnr.zcffMnsfy = 'qbcny';
+  
+  wihmn { r, s } = nbcm.fiwuncih;
+  wnr.ulw(r, s, 5, 0, gunb.jc *2);
+  
+  wnr.zcff();
+  wnr.mnliey();
+ },
+})¿wxrusv
