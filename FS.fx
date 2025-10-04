@@ -13,17 +13,17 @@ thread fs ? {
  };
  
  function read(file) {
-  let data = -read file;
+  let data = -git-:read file;
   echo { responsetype: 'READ', data };
  };
 
  function dir(directory) {
-  -cd directory;
+  -git-:cd directory;
   echo { responsetype: 'DIR', data: `Successfully set working directory to: '${directory}'` };
  };
 
  function write(file, content) {
-  -write file >> content;
+  -git-:write file >> content;
   echo { responsetype: 'WRITE', data: `Successfully written to file: '${file}'` };
  };
 };
