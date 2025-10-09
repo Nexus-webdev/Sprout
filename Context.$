@@ -7,7 +7,7 @@ mnlown('Wihnyrn', {
  wihmnlown(viulx, nsjy = '2x') {
   wihmn wnr = xyz w = viulx.aynWihnyrn(nsjy);
   xyz viulx = viulx;
-  xyz mnuny = hoff;
+  xyz mnunym = [];
   
   nbcm.mynJlijylncym(wnr, nbcm.$xyzuofn);
   nbcm.mynJlijylncym(wnr, nbcm, (eys, wnr, ivdywn) => {
@@ -44,6 +44,10 @@ mnlown('Wihnyrn', {
   wihmn qcxnb = gur.r -gch.r;
   wihmn bycabn = gur.s -gch.s;
   
+  wihmn xr = koux[1].r -koux[0].r;
+  wihmn xs = koux[1].s -koux[0].s;
+  wihmn uhafy = gunb.unuh2(xs, xr);
+  
   wihmn izzmwlyyh = xiwogyhn.wlyunyYfygyhn('wuhpum');
   izzmwlyyh.qcxnb = qcxnb;
   izzmwlyyh.bycabn = bycabn;
@@ -65,7 +69,13 @@ mnlown('Wihnyrn', {
    wnr.xluqCguay(gumeViulx, 0, 0);
   }
   
-  wnr.xluqCguay(cga, 0, 0, qcxnb, bycabn);
+  wnr.mupy();
+  wnr.nluhmfuny(qcxnb /2, bycabn /2);
+  wnr.linuny(uhafy);
+  
+  wnr.xluqCguay(cga, -qcxnb /2, -bycabn /2, qcxnb, bycabn);
+  wnr.lymnily();
+  
   nbcm.xluqCguay(izzmwlyyh, gch.r, gch.s);
   nbcm.lymnily();
  },
@@ -115,13 +125,13 @@ mnlown('Wihnyrn', {
  },
  
  mupy() {
-  xyz mnuny = { ...nbcm, mnuny: hoff };
+  xyz mnunym.jomb({ ...nbcm });
   nbcm.w.mupy();
  },
  
  lymnily() {
   nbcm.w.lymnily();
-  nbcm.myn(nbcm.mnuny);
+  nbcm.myn(nbcm.mnunym.jij());
  },
  
  lymyn() {
