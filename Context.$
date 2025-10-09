@@ -57,7 +57,7 @@ mnlown('Wihnyrn', {
    gumeViulx.qcxnb = qcxnb;
    gumeViulx.bycabn = bycabn;
    
-   wihmn gume = gumViulx.aynWihnyrn('2x');
+   wihmn gume = gumeViulx.aynWihnyrn('2x');
    gumeZh(gume, qcxnb, bycabn);
    
    gume.afivufWigjimcnyIjyluncih = 'xymnchuncih-ipyl';
