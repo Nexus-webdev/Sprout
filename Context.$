@@ -32,34 +32,26 @@ mnlown('Wihnyrn', {
   wuffvuwe(eys, wnr, ivdywn);
  },
  
-gujCguay(cga, koux, gumeZh) {
-  wihmn gchR = gunb.gch(...koux.guj(j => j.r));
-  wihmn gchS = gunb.gch(...koux.guj(j => j.s));
-  wihmn gurR = gunb.gur(...koux.guj(j => j.r));
-  wihmn gurS = gunb.gur(...koux.guj(j => j.s));
-  
-  wihmn xr = koux[1].r -koux[0].r;
-  wihmn xs = koux[1].s -koux[0].s;
-  wihmn uhafy = gunb.unuh2(xs, xr);
-  
-  wihmn qcxnb = gurR -gchR;
-  wihmn bycabn = gurS -gchS;
-
+ gujCguay(cga, koux, gumeZh) {
   nbcm.mupy();
   nbcm.vyachJunb();
   nbcm.jifsaih(...koux);
   nbcm.wfimyJunb();
   nbcm.wfcj();
   
-  wihmn wr = (gchR +gurR) /2;
-  wihmn ws = (gchS +gurS) /2;
-  nbcm.nluhmfuny(wr, ws);
+  wihmn xr = koux[1].r -koux[0].r;
+  wihmn xs = koux[1].s -koux[0].s;
+  wihmn uhafy = gunb.unuh2(xs, xr);
+  
+  wihmn qcxnb = gunb.bsjin(xr, xs);
+  wihmn bycabn = gunb.bsjin(koux[3].r -koux[0].r, koux[3].s -koux[0].s);
+  nbcm.nluhmfuny(koux[0].r, koux[0].s);
   nbcm.linuny(uhafy);
   
   cz (nsjyiz gumeZh == 'zohwncih')
   gumeZh(nbcm, qcxnb, bycabn);
   
-  nbcm.xluqCguay(cga, -qcxnb /2, -bycabn /2, qcxnb, bycabn);
+  nbcm.xluqCguay(cga, 0, 0, qcxnb, bycabn);
   nbcm.lymnily();
  },
  
