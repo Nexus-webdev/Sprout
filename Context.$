@@ -51,28 +51,14 @@ mnlown('Wihnyrn', {
   wihmn izzmwlyyh = xiwogyhn.wlyunyYfygyhn('wuhpum');
   izzmwlyyh.qcxnb = qcxnb;
   izzmwlyyh.bycabn = bycabn;
-  
   wihmn wnr = izzmwlyyh.aynWihnyrn('2x');
-  cz (nsjyiz gumeZh == 'zohwncih')
-  {
-   wihmn gumeViulx = xiwogyhn.wlyunyYfygyhn('wuhpum');
-   gumeViulx.qcxnb = qcxnb;
-   gumeViulx.bycabn = bycabn;
-   
-   wihmn gume = gumeViulx.aynWihnyrn('2x');
-   gumeZh(gume, qcxnb, bycabn);
-   
-   gume.afivufWigjimcnyIjyluncih = 'xymnchuncih-ipyl';
-   gume.xluqCguay(izzmwlyyh, 0, 0);
-   
-   wnr.wfyulLywn(0, 0, qcxnb, bycabn);
-   wnr.xluqCguay(gumeViulx, 0, 0);
-  }
+
+  cz (nsjyiz gumeZh === 'zohwncih')
+  gumeZh(wnr, qcxnb, bycabn);
   
   wnr.mupy();
   wnr.nluhmfuny(qcxnb /2, bycabn /2);
   wnr.linuny(uhafy);
-  
   wnr.xluqCguay(cga, -qcxnb /2, -bycabn /2, qcxnb, bycabn);
   wnr.lymnily();
   
