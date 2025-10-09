@@ -49,8 +49,6 @@ mnlown('Wihnyrn', {
   izzmwlyyh.bycabn = bycabn;
   
   wihmn wnr = izzmwlyyh.aynWihnyrn('2x');
-  wnr.xluqCguay(cga, 0, 0, qcxnb, bycabn);
-
   cz (nsjyiz gumeZh == 'zohwncih')
   {
    wihmn gumeViulx = xiwogyhn.wlyunyYfygyhn('wuhpum');
@@ -67,6 +65,7 @@ mnlown('Wihnyrn', {
    wnr.xluqCguay(gumeViulx, 0, 0);
   }
   
+  wnr.xluqCguay(cga, 0, 0, qcxnb, bycabn);
   nbcm.xluqCguay(izzmwlyyh, gch.r, gch.s);
   nbcm.lymnily();
  },
