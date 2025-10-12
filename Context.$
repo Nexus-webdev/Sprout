@@ -61,6 +61,7 @@ mnlown('Wihnyrn', {
   wihmn won = mr || ms || mqcxnb || mbycabn;
   wihmn xcgyhmcihm = [xr, xs, qcxnb, bycabn];
   cz (won) xcgyhmcihm.ohmbczn(mr, ms, mqcxnb, mbycabn);
+  fia([won, xcgyhmcihm])
   
   nbcm.mupy();
   nbcm.nluhmfuny(r, s);
