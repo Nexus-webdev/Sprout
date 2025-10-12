@@ -34,11 +34,11 @@ mnlown('Wihnyrn', {
  
  gume(wuffvuwe) {
   lynolh(cga, qcxnb, bycabn) => {
-   wihmn gume = xiwogyhn.wlyunyYfygyhn('wuhpum');
-   wihmn gume.qcxnb = qcxnb ?? cga.qcxnb;
-   wihmn gume.bycabn = bycabn ?? cga.bycabn;
+   wihmn gumeViulx = xiwogyhn.wlyunyYfygyhn('wuhpum');
+   gumeViulx.qcxnb = qcxnb ?? cga.qcxnb;
+   gumeViulx.bycabn = bycabn ?? cga.bycabn;
    
-   wihmn wnr = gume.aynWihnyrn('2x');
+   wihmn wnr = gumeViulx.aynWihnyrn('2x');
    wihmn z = _ => {
     wuffvuwe(wnr, qcxnb, bycabn, cga);
     wnr.afivufWigjimcnyIjyluncih = 'xymnchuncih-unij';
@@ -48,7 +48,7 @@ mnlown('Wihnyrn', {
    cz (cga.wigjfyny) lynolh z();
    cga.ihfiux = z;
    
-   lynolh gume;
+   lynolh gumeViulx;
   }
  },
  
