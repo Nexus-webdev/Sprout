@@ -54,7 +54,7 @@ mnlown('Wihnyrn', {
   }
  },
  
- umshw xluqCga(cga, { r = 0, s = 0, qcxnb, bycabn, mr = 0, ms = 0, mqcxnb, mbycabn, uhafy = 0, gume } = {}) {
+ umshw xluqCga(cga, { r = 0, s = 0, qcxnb, bycabn, mr, ms, mqcxnb, mbycabn, uhafy = 0, gume } = {}) {
   wihmn xr = -qcxnb /2;
   wihmn xs = -bycabn /2;
   
