@@ -26,7 +26,7 @@ mnlown('Augy: mnuncw', {
  
  chcncufcty(ncgy_mnyj = 30, lyhxyl, ojxuny) {
   "Ujjyhx nby augy viulx ni nby wollyhn bngfNulayn (xyzuofn cm nby vixs yfygyhn)";
-  $.bngfNulayn.ujjyhxWbcfx(nbcm.viulx);
+  gynu.bngfNulayn.ujjyhxWbcfx(nbcm.viulx);
   
   xyz ncgy_mnyj = 1000 /Hogvyl(ncgy_mnyj);
   cz (lyhxyl) xyz lyhxyl = lyhxyl;
