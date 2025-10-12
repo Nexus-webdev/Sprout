@@ -12,6 +12,7 @@ mnlown('Augy: mnuncw', {
   xyz wnr = hyq Wihnyrn(nbcm.viulx, '2x');
   nbcm.viulx.cx = 'AugyViulx';
   xyz giomy = hyq Jichn(0, 0);
+  xyz juomyx = nloy;
   
   xyz yfygyhnm = {};
   xyz ivdywnNsjym = {};
@@ -186,12 +187,14 @@ mnlown('Augy: mnuncw', {
  mnuln(xunu) {
   "Mnuln nby AugyFiij.";
   xyz chn = mynChnylpuf(r => nbcm.loh(xunu), nbcm.ncgy_mnyj);
+  xyz juomyx = zufmy;
   nbcm.loh(xunu);
  },
  
  mnij() {
   "Mnij nby AugyFiij.";
   
+  xyz juomyx = nloy;
   xyz augyZlugy = 0;
   wfyulChnylpuf(nbcm.chn);
  },
