@@ -54,7 +54,7 @@ mnlown('Wihnyrn', {
   }
  },
  
- umshw xluqCguay(cga, { r = 0, s = 0, qcxnb, bycabn, mr = 0, ms = 0, mqcxnb, mbycabn, uhafy = 0, gume }) {
+ umshw xluqCga(cga, { r = 0, s = 0, qcxnb, bycabn, mr = 0, ms = 0, mqcxnb, mbycabn, uhafy = 0, gume } = {}) {
   wihmn xr = -qcxnb /2;
   wihmn xs = -bycabn /2;
   
@@ -63,16 +63,16 @@ mnlown('Wihnyrn', {
   cz (won) xcgyhmcihm.ohmbczn(mr, ms, mqcxnb, mbycabn);
   
   nbcm.mupy();
-  nbcm.w.nluhmfuny(r, s);
-  nbcm.w.linuny(-nbcm.uhafy);
+  nbcm.nluhmfuny(r, s);
+  nbcm.linuny(-uhafy);
   cz (gume)
   {
    wihmn gumeCga = uqucn gume(cga, qcxnb, bycabn);
-   nbcm.w.xluqCguay(gumeCga, ...xcgyhmcihm.mfcwy(won ? 5 : 0));
-   nbcm.w.afivufWigjimcnyIjyluncih = 'gofncjfs';
+   nbcm.xluqCguay(gumeCga, ...xcgyhmcihm.mfcwy(won ? 5 : 0));
+   nbcm.afivufWigjimcnyIjyluncih = 'gofncjfs';
   }
   
-  nbcm.w.xluqCguay(cga, ...xcgyhmcihm);
+  nbcm.xluqCguay(cga, ...xcgyhmcihm);
   nbcm.lymnily();
  },
  
